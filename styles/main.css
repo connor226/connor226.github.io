@@ -1,0 +1,47 @@
+body {
+    background-image: url("background_1.jpg");
+    /* 預設會 repeat 至填滿 */
+    /* 也可以設定縱向、橫向 repeat 即可 (repeat-y, repeat-x) */
+    background-repeat: repeat;
+    background-position: left top;
+    background-attachment: scroll; /* scroll or fixed */
+    background-size: auto;
+  }
+  .intro{
+    background-color: rgba(79, 196, 255, 0.5);
+    border-style: solid;
+    border-color: orange;
+    border-radius: 20px;
+    padding: 5px 8px 8px 5px;
+    width: 50%;
+    text-align: left;
+    font-size: 20px;
+  }
+  h2{
+    font-size: larger;
+    text-align: left;
+    font-size: 20px;
+  }
+  #pic1 {
+    position: -webkit-sticky; /* Safari */
+    position: fixed;
+    top: 20;
+    right: 0;
+    width: 48%;
+    float: right;
+    border: 2px solid plum;
+  }
+  table {
+    width: 100%;
+    top: 0;
+    position: sticky;
+  }
+  th {
+    border-style: solid;
+    border-color: tan;
+    font-size: 24px;
+    background-color: silver;
+  }
+  a:visited {
+    color: hotpink;
+  }
