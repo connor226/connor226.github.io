@@ -50,15 +50,21 @@
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 
-	<audio controls autoplay loop id = "audio">
-		<source src = "Luke Bergs - Tropical Soul.mp3" type = "audio/mpeg">
-		Your browser does not support the audio element.
-	</audio>
-
-	<p class = "date">5-3-2021 04:08:55</p>
+	<!-- HW3 requirements -->
+	<link rel="stylesheet" href="css/hw3.css">
+	<script src="js/hw3.js"></script>
 
 	</head>
 	<body>
+
+	<div id = "hw3-header">
+		<audio controls autoplay loop id = "hw3-audio">
+			<source src = "Luke Bergs - Tropical Soul.mp3" type = "audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+
+		<p id = "hw3-date">5-3-2021 04:08:55</p>
+	</div>
 		
 	<div class="fh5co-loader"></div>
 	
@@ -91,7 +97,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>About Me</h2>
+					<h2>自我介紹</h2>
 				</div>
 			</div>
 			<div class="row">
@@ -101,22 +107,23 @@
 						<li><span class="first-block">性別:</span><span class="second-block">男</span></li>
 						<li><span class="first-block">年紀:</span><span class="second-block">19</span></li>
 						<li><span class="first-block">職業:</span><span class="second-block">學生</span></li>
-						<li><span class="first-block">電話:</span><span class="second-block">0934167049</span></li>
+						<li><span class="first-block">電話:</span><span class="second-block">(09)34167049</span></li>
 						<li><span class="first-block">Email:</span><span class="second-block">connor.taipei@gmail.com</span></li>
 						
 					</ul>
 				</div>
 				<div class="col-md-8">
 					<h2>嗨!</h2>
-					<p>我是陳亮瑜，從小在台北市長大，</p>
-					<p>Far far away, behind the word mountains, Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci there live the blind texts from the countries Vokalia and Consonantia, there live the blind texts. Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci.</p>
-					<p>
-						<ul class="fh5co-social-icons">
-							<li><a href="#"><i class="icon-twitter2"></i></a></li>
-							<li><a href="#"><i class="icon-facebook3"></i></a></li>
-							<li><a href="#"><i class="icon-linkedin2"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble2"></i></a></li>
-						</ul>
+					<p>我是陳亮瑜，從小在台北市長大，目前是一個大學生，正在探索適合自己的領域，未來想進入科技公司當工程師。</p>
+					<p>我平時的興趣是
+						<a class="hw3-a" href="https://playvalorant.com/zh-tw/">打電動</a>、
+						<a class="hw3-a" href="https://mks.ntuee.org/">做手工</a>還有
+						<a class="hw3-a" href="https://codeforces.com/">寫程式</a>
+						，在大一上時蠻喜歡打排球的，還因此加入系排，但到了大一下因為太忙就沒去練球了(絕對不是因為我偷懶)，反倒是常常跟同學去宿舍打桌球www。
+						我也喜歡學習新事物，例如我最近在學習寫
+						<a class="hw3-a" href="https://discord.com/">discord</a>
+						的機器人，雖然一開始一定什麼都不懂，但透過一步步學習漸漸能夠做出一個像樣的作品，這個過程往往使我感到頗有成就感，
+						有事沒事也會去找一些程式或創客松比賽來自虐，一方面是為了刺激自己思考，一方面也是去見識其他人的創意跟實力。
 					</p>
 				</div>
 			</div>
@@ -127,14 +134,14 @@
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>My Resume</h2>
+					<h2>人生經歷</h2>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12 col-md-offset-0">
 					<ul class="timeline">
 						<li class="timeline-heading text-center animate-box">
-							<div><h3>Work Experience</h3></div>
+							<div><h3>成就</h3></div>
 						</li>
 						<li class="animate-box timeline-unverted">
 							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
@@ -175,17 +182,17 @@
 
 						<br>
 						<li class="timeline-heading text-center animate-box">
-							<div><h3>Education</h3></div>
+							<div><h3>求學</h3></div>
 						</li>
 						<li class="timeline-inverted animate-box">
 							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Masters Degree</h3>
-									<span class="company">University Name - 2007 - 2009</span>
+									<h3 class="timeline-title">國小</h3>
+									<span class="company"><a class="hw3-a" href="http://www.fhjh.tp.edu.tw/dispPageBox/Elehp.aspx?ddsPageID=ELHP">臺北市私立復興小學</a>   2008 - 2014</span>
 								</div>
 								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<p>小學教育教會我最重要的東西是紀律，在小學階段有老師的嚴格管教，讓我從小養成禮貌以及許多好習慣，並且奠定了良好的學科基礎，我也在這裡建立起自信心。</p>
 								</div>
 							</div>
 						</li>
@@ -193,11 +200,11 @@
 							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Bachelors Degree</h3>
-									<span class="company">University Name - 2002 - 2006</span>
+									<h3 class="timeline-title">國中</h3>
+									<span class="company"><a class="hw3-a" href="https://www.yphs.tp.edu.tw/tc_index.asp">臺北市私立延平中學</a>   2014 - 2017</span>
 								</div>
 								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+									<p>國中換了一個學習環境，競爭教小學時期激烈，所以一開始我有些不習慣，但也是在這個時候我參加了學校的程式設計班，讓我自從國中就開始學習c++，開啟我對電資領域的興趣。</p>
 								</div>
 							</div>
 						</li>
@@ -205,11 +212,11 @@
 							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Diploma Course</h3>
-									<span class="company">College Name - 1999 - 2001</span>
+									<h3 class="timeline-title">高中</h3>
+									<span class="company"><a class="hw3-a" href="https://www.yphs.tp.edu.tw/tc_index.asp">臺北市私立延平高中</a>   2017 - 2020</span>
 								</div>
 								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<p>高中是從國中直升上去，基本上我就讀的學校是升學取向，學校也確實幫助我考上了心目中的第一志願，但我在念書之餘我也一直在精進我的程式能力，並且參加各種校內校外的比賽。</p>
 								</div>
 							</div>
 						</li>
@@ -217,11 +224,11 @@
 							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Graduation</h3>
-									<span class="company">College Name - 1994 - 1998</span>
+									<h3 class="timeline-title">學士班</h3>
+									<span class="company"><a class="hw3-a" href="https://www.ntu.edu.tw/">臺灣大學</a> <a class="hw3-a" href="https://web.ee.ntu.edu.tw/">電機工程系</a>   2020 - now</span>
 								</div>
 								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+									<p>上了大學，脫離私立學校的嚴厲束縛，等待我的是什麼樣的生活呢......</p>
 								</div>
 							</div>
 						</li>
@@ -306,7 +313,7 @@
 					<div class="progress-wrap">
 						<h3><span class="name-left">HTML5/CSS3</span><span class="value-right">70%</span></h3>
 						<div class="progress">
-						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
+						  <div class="progress-bar progress-bar-2 progress-bar-striped active" role="progressbar"
 						  aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
 						  </div>
 						</div>
@@ -396,7 +403,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<p>&copy; 2017 Free HTML5 Template. All Rights Reserved. <br>Designed by <a href="http://freehtml5.co" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.com" target="_blank">Unsplash</a></p>
+					<p>&copy; 2017 Free HTML5 Template. All Rights Reserved. <br>Designed by <a href="http://freehtml5.co" target="_blank">FreeHTML5.co</a> </p>
 				</div>
 			</div>
 		</div>
