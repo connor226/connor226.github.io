@@ -5,3 +5,5 @@ This is my github page (https://connor226.github.io/).
 I modified it from a template.
 I added a hw3.css and hw3.js to meet the requirements.
 As a result, TAs can just check out hw3.css and hw3.js to see the code if necessary.
+
+Browser preference: edge > chrome > firefox > ie > else
